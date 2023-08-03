@@ -39,5 +39,5 @@ setup(
             include_dirs=["../external/googletest", "../external/googletest/include"],
             **kwargs,
         )
-    ],
+    ]
 )
