@@ -37,7 +37,7 @@ setup(
             library_dirs=["../external/googletest/make"],
             libraries=["gtest"],
             include_dirs=["../external/googletest", "../external/googletest/include"],
-            **kwargs,
+            **kwargs
         )
     ]
 )
